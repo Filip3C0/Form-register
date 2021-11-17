@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <title>Cadastro</title>
+</head>
+<body>
+
+    <form >
+        
+            <label for="name">
+                <span>Nome</span>
+                <input type="text" name="nome">
+            </label>
+            <label for="email">
+                <span>Email</span>
+                <input type="email" name="email">
+            </label>
+            <label for="age">
+                <span>Idade</span>
+                <input type="number" name="age" minlength="12">
+            </label>
+            <label for="born">
+                <span>Data da Nascimento</span>
+                <input type="date" name="born" >
+            </label>
+            <label for="social-networks" class="social-media">
+                <span>Onde voce possui conta</span>
+                <input type="checkbox"><label for="social-networks">Instagram</label>
+                <input type="checkbox"><label for="social-networks">Facebook</label>
+                <input type="checkbox"><label for="social-networks">Youtube</label>
+            </label>
+            <label for="sex" class="sex">
+                <span>Sexo</span>
+                <input type="radio" name="sex" ><label for="male">Masculino</label>
+                <input type="radio" name="sex" ><label for="female">Feiminino</label>
+            </label>
+            <label for="eye-color">
+                <span>Cor dos olhos</span>
+                <input type="color" name="eye-color" >
+            </label>
+            <label for="bio">
+                <span>Biografia</span>
+                <textarea name="bio" id="" cols="30" rows="5"></textarea>
+            </label>
+            <label for="photo">
+                <span>Foto de perfil</span>
+                <input type="file" value="image/*">
+            </label>
+            <label for="tel">
+                <span>Telefone</span>
+                <input type="tel">
+            </label>
+            <label for="perfil">
+                <span>Perfil do Facebook</span><br>
+                <input type="email" >
+            </label>
+            <label for="password" class="password">
+                <span>Senha</span>
+                <input type="password" minlength="6" maxlength="8">
+            </label>
+
+            <button type="submit" class="btn-submit">Enviar</button>
+            <button type="reset" class="btn-clear">Limpar</button>
+    </form>
+</body>
+</html>
